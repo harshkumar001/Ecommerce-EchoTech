@@ -4,6 +4,36 @@ Welcome to Ecommerce-EchoTech! This project is a feature-rich e-commerce website
 It offers a seamless shopping experience, allowing users to browse products, add them to the cart, and securely make payments using Stripe. 
 The project is designed to be responsive, catering to both desktop and mobile users.
 
+### Tech Stack
+
+The technologies and tools used to build this project.
+
+- **Frontend**: I used React.js as the frontend framework due to its component-based architecture and efficient rendering. Material-UI was employed to enhance the UI design, providing responsive and visually appealing components.
+
+- **Backend**: For the backend, I chose Strapi as a headless CMS to manage product data and user authentication. Strapi's flexibility and ease of use allowed me to quickly set up a customizable API.
+
+- **Payment Integration**: To handle secure online transactions, I integrated the Stripe payment platform. Its robust features and developer-friendly documentation made it an ideal choice.
+
+- **Database**: I utilized a SQLite database for its simplicity during development, with the option to scale to more advanced databases in the future.
+
+- **Styling**: Emotion and styled-components were used for styling, allowing for easy component-level styling and theming.
+
+- ## Deployment
+
+While the development of this project went smoothly, I faced challenges during the deployment phase of the Strapi backend. I believe in sharing my experiences to help others who might run into similar issues in the future.
+
+### Deployment Challenges
+
+During the deployment of the Strapi backend, I encountered difficulties in ensuring a seamless transition from the local development environment to the production environment. Specifically, I struggled with:
+
+- **Database Configuration**: Configuring the database in the deployment environment to match the local setup proved to be more complex than anticipated. This led to unexpected errors and connectivity issues.
+
+- **Environment Variables**: Ensuring that all necessary environment variables were correctly set in the production environment was a bit of a learning curve. Mismatched or missing variables caused issues in the Strapi application's functionality.
+
+
+
+
+
 ## Features
 
 ### Browse and Search for Products
